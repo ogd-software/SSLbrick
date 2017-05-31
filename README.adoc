@@ -7,6 +7,6 @@ And if it did the standard handler does not include the right library for ssl.
 
 = How To Use
 
-Add `gem 'sslbrick', git: 'git@github.com:ogd-software/SSLbrick.git` to Gemfile.
+Add `gem 'sslbrick', git: 'git@github.com:ogd-software/SSLbrick.git'` to Gemfile.
 
 Install with `bundle install`.
