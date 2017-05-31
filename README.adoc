@@ -1,0 +1,12 @@
+= SSLbrick
+
+SSL WEBrick handler, modified copy of the standard WEBrick handler with options to force SSL
+Needed because rails s does not parse and pass the option to enable ssl.
+And if it did the standard handler does not include the right library for ssl. (Source: Salaristool)
+
+
+= How To Use
+
+Add `gem 'sslbrick', git: 'git@github.com:ogd-software/SSLbrick.git` to Gemfile.
+
+Install with `bundle install`.
