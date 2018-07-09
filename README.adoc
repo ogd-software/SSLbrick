@@ -6,6 +6,12 @@ Needed because `rails server` does not parse and pass the option to enable SSL.
 
 = How To Use
 
-Add `gem 'sslbrick', git: 'https://github.com/ogd-software/SSLbrick.git'` to your Gemfile.
+Add `gem 'sslbrick', git: 'https://github.com/ogd-software/SSLbrick.git',
+branch: 'release-1.0'` to your Gemfile and install with `bundle install`.
 
-Install with `bundle install`.
+= Development
+
+Backwards *compatible* changes to SSLbrick should be merged into the most
+recent release branch. Backwards *incompatible* changes to SSLbrick should be
+pushed onto a new release branch. This way, we can easily update SSLbrick
+without breaking.
